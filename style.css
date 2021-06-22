@@ -1,0 +1,162 @@
+body{
+  /* margin: 0px ; */
+  font-size: 1.3rem;
+  /* padding: 0px ; */
+  /* box-sizing: border-box; */
+    background-color: #FFC824;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+
+}
+
+#countdown{
+  font-size: 2rem;
+  margin: 10px 10px;
+}
+.time-up{
+  font-size: 3rem;
+  text-align: center;
+  margin: 300px ;
+  /* margin-top: 50% */
+}
+
+.background-box{
+  /* height: 200px; */
+  max-width: 700px;
+  background-color: #ffff;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  padding-top: 35px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  /* line-height: 2; */
+}
+
+/* .background-box::before,
+.background-box::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.background-box .question-number,
+.background-box .questions-mcq,
+.background-box .option-mcq,
+.background-box .next-button{
+  width: 100%;
+  float: left;
+} */
+
+  button{
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: #ffff;
+  margin: 5px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/*
+.options-mcq{
+
+  text-align: left;
+} */
+
+.option{
+  /* width: ; */
+  background-color:#dddddd ;
+  padding: 10px;
+  margin: 10px 30px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.questions-mcq{
+  margin: 35px 10px;
+}
+
+hr{
+  width: 90%;
+  margin: auto;
+}
+.hide{
+  display: none;
+}
+
+/* score board */
+
+.score-head{
+  margin-bottom: 30px;
+}
+
+.table td{
+  width: 85%;
+  background-color: #dddddd;
+  padding: 10px;
+  /* padding: 10px 20px 10px 5px; */
+}
+
+.table{
+  margin: auto;
+  padding-bottom: 30px;
+
+}
+
+.score-buttons{
+  margin-bottom: 30px;
+}
+/*
+.background-box .questions-mcq .option{
+  background-color: #cccccc;
+  padding: 13px 15px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  opacity: 0;
+  animation: fadeIn 0.3s ease forwards;
+  text-transform: capitalize;
+  position: relative;
+  overflow: hidden;
+}
+
+@@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1%;
+  }
+} */
+
+
+/* .questions.background-box .option-mcq .option.correct::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  z-index: -1
+} */
+
+.correct{
+  background-color: green;
+
+}
+.wrong{
+  background-color: red;
+}
+
+.option.alredy-answered{
+  pointer-events: none;
+}
