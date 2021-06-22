@@ -1,2 +1,3 @@
 # Quiz
-QUiz with timer 
+Quiz with timer using html css and js
+
